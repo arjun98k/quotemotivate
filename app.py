@@ -21,7 +21,7 @@ def main():
     if st.button("Generate Quote"):
         love_quote = fetch_love_quote()
         if love_quote:
-            st.success("Here's a love quote for you:")
+            st.success("Here's a motivational quote for you:")
             st.write(love_quote)
         else:
             st.error("Failed to fetch a love quote.")
